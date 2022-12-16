@@ -24,7 +24,7 @@ export default function Project(props) {
         {/* href={props.url} */}
 
         <Tabs
-        //   activeKey={key}
+          //   activeKey={key}
           defaultActiveKey="Race 1: Context"
           onSelect={(k) => setKey(k)}
           className="mb-3"
@@ -47,7 +47,10 @@ export default function Project(props) {
           </Tab>
         </Tabs>
       </div>
-      <Nav.Link href="#top" className={"Space SpaceRight " + props.p}></Nav.Link>
+      <Nav.Link
+        href="#top"
+        className={"Space SpaceRight " + props.p}
+      ></Nav.Link>
     </div>
   );
 }

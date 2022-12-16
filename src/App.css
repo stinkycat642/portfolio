@@ -10,7 +10,6 @@ html {
 
 a {
   transition: 250ms;
-
 }
 
 .TextOutline {
@@ -86,7 +85,6 @@ a {
   align-items: center;
   gap: 7vw;
   /* -webkit-text-stroke: 1px #23430c; */
-
 }
 
 .ProjectContainer {

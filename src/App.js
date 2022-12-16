@@ -30,7 +30,9 @@ function App() {
             StinkyKart 642 Deluxe
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#About Me" style={{ transition: "250ms" }}>About Me</Nav.Link>
+            <Nav.Link href="#About Me" style={{ transition: "250ms" }}>
+              About Me
+            </Nav.Link>
             <Nav.Link href="#Personas">Personas</Nav.Link>
             <Nav.Link href="#Responsive">Responsive</Nav.Link>
             <Nav.Link href="#Iterative">Iterative</Nav.Link>
@@ -158,7 +160,7 @@ function App() {
         id="Development"
         p="p4"
         cup="Banana Cup"
-        title="Development"
+        title="Development: Iroh's Finest Tea"
         url="https://stinkycat642.github.io/development/"
         context="I developed a Tea Shop website to explore React pages that users can interact with to update values and interface with backend data."
         research="N/A"
@@ -171,7 +173,7 @@ function App() {
       {/* About */}
       <div id="About Me" className="About">
         <h1>More About Me</h1>
-        <p style={{ margin: "0 20%"}}>
+        <p style={{ margin: "0 20%" }}>
           This site is Mario Kart themed, and that's because I wanted to use
           this space to convey the playful, creative, expressive side of
           myself...Frontend design is a thought-filled, technical process, but
@@ -186,7 +188,9 @@ function App() {
           <h3>Contacts</h3>
           <p>stinkycat642 shan't be contacted</p>
         </div>
-        <a href="#top">Back to Top!</a>
+        <a style={{ margin: "0 0 0 2%" }} href="#top">
+          Back to Top!
+        </a>
       </div>
     </div>
   );
